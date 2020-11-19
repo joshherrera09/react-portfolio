@@ -85,5 +85,9 @@ export default {
             name: "Resume",
             url: "",
         }
-    ]
-}
+    ],
+
+    // ABout page
+    aboutTitle: "A little about me",
+    aboutText: " I spent my undergrad at the University of Redlands as a student athlete. I studied psychology, and was a NCAA football All-American and team captain, where I gained strong leadership skills and became committed to excellence."
+};
