@@ -19,7 +19,7 @@ export default {
             id: 1,
             title: "Password Generator",
             text: "I created this applicatin to generate a random password based on the users criteria.",
-            thumbnail: "",
+            thumbnail: "../assets/password-generator.png",
             github: "https://github.com/joshherrera09/PW-generator",
             deployed: "https://joshherrera09.github.io/PW-generator/"
         },
@@ -27,7 +27,7 @@ export default {
             id: 2,
             title: "Weather Dashboard",
             text: "I created the Weather Dashboard for theuser to be able to search any given city, and receive the current forecast as well as a 5-day forecast.",
-            thumbnail: "",
+            thumbnail: "../assets/weather-dashboard.png",
             github: "https://github.com/joshherrera09/weather-dashboard",
             deployed: "https://joshherrera09.github.io/weather-dashboard/"
         },
@@ -35,7 +35,7 @@ export default {
             id: 3,
             title: "Quarantine Day Planner",
             text: "The Quarantine Day Planner helps users plan their days during the COVID 19 pandemic.",
-            thumbnail: "",
+            thumbnail: "../assets/quarantine-day-planner.png",
             github: "ttps://github.com/msurio/project1",
             deployed: "https://msurio.github.io/project1/"
         },
@@ -43,7 +43,7 @@ export default {
             id: 4,
             title: "Work Day Scheduler",
             text: "The work Day Scheduler allows the user to plan their day during regular work hours.",
-            thumbnail: "",
+            thumbnail: "../assets/work-day-scheduler.png",
             github: "https://github.com/joshherrera09/work-day-scheduler",
             deployed: "ttps://joshherrera09.github.io/work-day-scheduler/"
         },
@@ -51,7 +51,7 @@ export default {
             id: 5,
             title: "Boo Chat",
             text: "Hop in our virtual Halloween Caht Room!",
-            thumbnail: "",
+            thumbnail: "../assets/booChat.png",
             github: "ttps://github.com/msurio/project2",
             deployed: "https://project2-ucsd.herokuapp.com/"
         },
@@ -59,7 +59,7 @@ export default {
             id: 6,
             title: "Fitness Tracker",
             text: "The Fitness Tracker is a great way to log your workouts and progress",
-            thumbnail: "",
+            thumbnail: "../assets/fitness-tracker.png",
             github: "https://github.com/joshherrera09/fitnesstracker",
             deployed: "https://joshs-fitness-tracker.herokuapp.com/?id=5f9ddcd3e0a409001735da8d"
         }

@@ -7,7 +7,7 @@ const Work = ({ projects }) => {
             <div className="projects_container">
                 {projects.map((project) =>(
                     <div key={projects.id} className="prject">
-                        <div className="image">
+                        <div className="img">
                             <a href={project.deployed}>
                                 <img src={projects.thumbnail} alt={projects.title}></img>
                             </a>
