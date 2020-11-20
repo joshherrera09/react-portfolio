@@ -8,33 +8,33 @@ const Contact = ({ contactEmail, contactSection, socialLinks }) => {
             <h1>Get in Touch</h1>
             <p>{contactSection}</p>
             <br></br>
-            <a className="email_link" href={`mailto:${contactEmail}`}>
+            <a className="email_link"  href={`mailto:${contactEmail}`}>
                 {contactEmail}
             </a>
             <div className="social_links">
                 <ul>
                     <li>
-                        <a href={`mailto:${contactEmail}`}>
+                        <a href={`mailto:${contactEmail}`} target="_blank" rel="noreferrer">
                             <FaEnvelope></FaEnvelope>
                         </a>
                     </li>
                     <li>
-                        <a href={socialLinks[0].url}>
+                        <a href={socialLinks[0].url} target="_blank" rel="noreferrer">
                             <FaLinkedin></FaLinkedin>                          
                         </a>               
                     </li>
                     <li>
-                        <a href={socialLinks[1].url}>
+                        <a href={socialLinks[1].url} target="_blank" rel="noreferrer">
                             <FaGithub></FaGithub>
                         </a>
                     </li>
                     <li>
-                        <a href={socialLinks[2].url}>
+                        <a href={socialLinks[2].url} target="_blank" rel="noreferrer">
                             <FaTwitter></FaTwitter>
                         </a>
                     </li>
                     <li>
-                        <a href={Pdf} target="_blank">
+                        <a href={Pdf} target="_blank" rel="noreferrer">
                             <FaFile></FaFile>
                         </a>
                     </li>

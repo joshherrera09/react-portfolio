@@ -75,10 +75,6 @@ export default {
             name: "Twitter",
             url: "https://twitter.com/therealjah9",
         },
-        {
-            name: "Resume",
-            url: "",
-        }
     ],
 
     // About page
