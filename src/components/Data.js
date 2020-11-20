@@ -11,57 +11,51 @@ export default {
     // Home page about me
     aboutMe: "Aspiring Full-Stack Web Developer, currently enrolled in the UCSD Web Development Coding Bootcamp",
 
-    homePageImage: "",
+    homePageImage: "/assets/me.jpg",
 
     // Projects
     projects: [
         {
             id: 1,
             title: "Password Generator",
-            text: "I created this applicatin to generate a random password based on the users criteria.",
-            thumbnail: "../assets/password-generator.png",
+            imageSrc: "/assets/password-generator.png",
             github: "https://github.com/joshherrera09/PW-generator",
-            deployed: "https://joshherrera09.github.io/PW-generator/"
+            url: "https://joshherrera09.github.io/PW-generator/"
         },
         {
             id: 2,
             title: "Weather Dashboard",
-            text: "I created the Weather Dashboard for theuser to be able to search any given city, and receive the current forecast as well as a 5-day forecast.",
-            thumbnail: "../assets/weather-dashboard.png",
+            imageSrc: "/assets/weather-dashboard.png",
             github: "https://github.com/joshherrera09/weather-dashboard",
-            deployed: "https://joshherrera09.github.io/weather-dashboard/"
+            url: "https://joshherrera09.github.io/weather-dashboard/"
         },
         {
             id: 3,
             title: "Quarantine Day Planner",
-            text: "The Quarantine Day Planner helps users plan their days during the COVID 19 pandemic.",
-            thumbnail: "../assets/quarantine-day-planner.png",
+            imageSrc: "/assets/quarantine-day-planner.png",
             github: "ttps://github.com/msurio/project1",
-            deployed: "https://msurio.github.io/project1/"
+            url: "https://msurio.github.io/project1/"
         },
         {
             id: 4,
             title: "Work Day Scheduler",
-            text: "The work Day Scheduler allows the user to plan their day during regular work hours.",
-            thumbnail: "../assets/work-day-scheduler.png",
+            imageSrc: "/assets/work-day-scheduler.png",
             github: "https://github.com/joshherrera09/work-day-scheduler",
-            deployed: "ttps://joshherrera09.github.io/work-day-scheduler/"
+            url: "ttps://joshherrera09.github.io/work-day-scheduler/"
         },
         {
             id: 5,
             title: "Boo Chat",
-            text: "Hop in our virtual Halloween Caht Room!",
-            thumbnail: "../assets/booChat.png",
+            imageSrc: "/assets/booChat.png",
             github: "ttps://github.com/msurio/project2",
-            deployed: "https://project2-ucsd.herokuapp.com/"
+            url: "https://project2-ucsd.herokuapp.com/"
         },
         {
             id: 6,
             title: "Fitness Tracker",
-            text: "The Fitness Tracker is a great way to log your workouts and progress",
-            thumbnail: "../assets/fitness-tracker.png",
+            imageSrc: "/assets/fitness-tracker.png",
             github: "https://github.com/joshherrera09/fitnesstracker",
-            deployed: "https://joshs-fitness-tracker.herokuapp.com/?id=5f9ddcd3e0a409001735da8d"
+            url: "https://joshs-fitness-tracker.herokuapp.com/?id=5f9ddcd3e0a409001735da8d"
         }
     ],
 
@@ -87,7 +81,8 @@ export default {
         }
     ],
 
-    // ABout page
+    // About page
     aboutTitle: "A little about me",
     aboutText: " I spent my undergrad at the University of Redlands as a student athlete. I studied psychology, and was a NCAA football All-American and team captain, where I gained strong leadership skills and became committed to excellence."
 };
+

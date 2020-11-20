@@ -1,6 +1,8 @@
 import React from 'react';
+import Data from './Data'
 
-const Home = ({name, paragraph, image}) => {
+
+const Home = ({name, paragraph, homePageImage}) => {
     return (
         <div>
             <div className="home_container">
@@ -9,7 +11,7 @@ const Home = ({name, paragraph, image}) => {
                     <p>{paragraph}</p>
                 </div>
                 <div className="image_container">
-                    <img src={image} alt="Author"></img>
+                    <img src={Data.homePageImage} alt="Josh Herrera"></img>
                     <div className="bg"></div>
                 </div>
             </div>

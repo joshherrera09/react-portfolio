@@ -13,7 +13,7 @@ const About = () => {
                 <div className="about_contact">
                     <Contact
                         contactEmail={data.contactEmail}
-                        contactpara={data.contactSection}
+                        contactSection={data.contactSection}
                         socialLinks={data.social}
                         ></Contact>
                 </div>

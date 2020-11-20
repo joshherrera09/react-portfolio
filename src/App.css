@@ -22,8 +22,10 @@ a {
   color: white;
 }
 
-.header_content {
-  display: felx;
+/* Header */
+
+.header_container {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +53,8 @@ a {
   font-size: 1rem;
 }
 
+/* Home */
+
 .home_container {
   display: flex;
   flex-direction: row;
@@ -67,17 +71,35 @@ a {
   width: 40vw;
 }
 
+.home_container .home_head_wrapper h1{
+  font-size: 4.5rem;
+  font-family: "Montserrat";
+}
+
+.home_container .home_head_wrapper h1 span{
+  color:#1E6FD9;
+}
+
+.home_container .home_head_wrapper p{
+  position: relative;
+  top:-4rem;
+  font-size: 2rem;
+  opacity: 0.4;
+}
+
 .home_container .image_container img {
   position: relative;
   height: 26rem;
   width: 18rem;
-  top: 5rerm;
+  top: 5rem;
   border-style: solid;
   border-width: 5px;
   border-top: 0px;
   border-left: 0px;
   border-color: #1E6FD9;
 }
+
+/* Work */
 
 .work_container {
   display: flex;
@@ -98,7 +120,7 @@ a {
   grid-gap: 1rem;
 }
 
-.work_container.projects_container img {
+.work_container .projects_container img {
   height: 20rem;
   width: 20rem;
 }
@@ -106,6 +128,8 @@ a {
 .work_container .projects_container .title {
   font-size: 1.2rem;
 }
+
+/* Contact */
 
 .contact_container {
   display: flex;
@@ -148,6 +172,8 @@ a {
   text-decoration: none;
   font-size: 2rem;
 }
+
+/* About */
 
 .about_container {
   display: flex;

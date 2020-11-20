@@ -9,7 +9,7 @@ const Landing = () => {
     return (
         <div className="App">
             <Header name={Data.name} contactEmail={Data.contactEmail}></Header> 
-            <Home name={Data.homePageName} paragraph={Data.aboutMe} image={Data.image}></Home>
+            <Home name={Data.homePageName} paragraph={Data.aboutMe} image={Data.homePageImage}></Home>
             <Work projects={Data.projects}></Work>
             <Contact contactEmail = {Data.contactEmail} contactSection={Data.contactSection} socialLinks={Data.social}></Contact>
         </div>
