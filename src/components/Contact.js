@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaFile} from "react-icons/fa";
+import Pdf from "./resume/JoshHerreraProgrammerResume.pdf";
 
 const Contact = ({ contactEmail, contactSection, socialLinks }) => {
     return (
@@ -25,6 +26,16 @@ const Contact = ({ contactEmail, contactSection, socialLinks }) => {
                     <li>
                         <a href={socialLinks[1].url}>
                             <FaGithub></FaGithub>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={socialLinks[2].url}>
+                            <FaTwitter></FaTwitter>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={Pdf} target="_blank">
+                            <FaFile></FaFile>
                         </a>
                     </li>
                 </ul>
