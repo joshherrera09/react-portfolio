@@ -9,7 +9,7 @@ const Work = ({ projects }) => {
                 {projects.map((project) => (
                     <div key={project.id} className="project">
                         <div className="img">
-                            <a href={project.url}>
+                            <a href={project.url} target="_blank" >
                                 <img src={project.imageSrc} alt={project.title}></img>
                             </a>
                         </div>
