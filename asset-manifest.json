@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f575751.chunk.css",
-    "main.js": "/static/js/main.ea1797f7.chunk.js",
-    "main.js.map": "/static/js/main.ea1797f7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.96b4749a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.96b4749a.js.map",
-    "static/js/2.8871c3ee.chunk.js": "/static/js/2.8871c3ee.chunk.js",
-    "static/js/2.8871c3ee.chunk.js.map": "/static/js/2.8871c3ee.chunk.js.map",
-    "static/js/3.e2543b47.chunk.js": "/static/js/3.e2543b47.chunk.js",
-    "static/js/3.e2543b47.chunk.js.map": "/static/js/3.e2543b47.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.4f575751.chunk.css.map": "/static/css/main.4f575751.chunk.css.map",
-    "static/js/2.8871c3ee.chunk.js.LICENSE.txt": "/static/js/2.8871c3ee.chunk.js.LICENSE.txt",
-    "static/media/JoshHerreraProgrammerResume.160f3c1b.pdf": "/static/media/JoshHerreraProgrammerResume.160f3c1b.pdf"
+    "main.css": "/react-portfolio/static/css/main.4f575751.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ea1797f7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ea1797f7.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7adfe25b.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7adfe25b.js.map",
+    "static/js/2.8871c3ee.chunk.js": "/react-portfolio/static/js/2.8871c3ee.chunk.js",
+    "static/js/2.8871c3ee.chunk.js.map": "/react-portfolio/static/js/2.8871c3ee.chunk.js.map",
+    "static/js/3.e2543b47.chunk.js": "/react-portfolio/static/js/3.e2543b47.chunk.js",
+    "static/js/3.e2543b47.chunk.js.map": "/react-portfolio/static/js/3.e2543b47.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.4f575751.chunk.css.map": "/react-portfolio/static/css/main.4f575751.chunk.css.map",
+    "static/js/2.8871c3ee.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8871c3ee.chunk.js.LICENSE.txt",
+    "static/media/JoshHerreraProgrammerResume.160f3c1b.pdf": "/react-portfolio/static/media/JoshHerreraProgrammerResume.160f3c1b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.96b4749a.js",
+    "static/js/runtime-main.7adfe25b.js",
     "static/js/2.8871c3ee.chunk.js",
     "static/css/main.4f575751.chunk.css",
     "static/js/main.ea1797f7.chunk.js"
